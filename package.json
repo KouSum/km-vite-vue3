@@ -1,0 +1,28 @@
+{
+  "name": "vite_4",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vuedx-typecheck . && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.0.0",
+    "element-plus": "^1.0.2-beta.32",
+    "esbuild-windows-64": "file:C:/Users/su113/Downloads/esbuild-windows-64-0.8.45.tgz",
+    "umi-request": "^1.3.5",
+    "vue": "^3.0.5",
+    "vue-router": "4",
+    "vueposu": "^0.3.8-3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vuedx/typecheck": "^0.6.0",
+    "@vuedx/typescript-plugin-vue": "^0.6.0",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.0-beta.65",
+    "vite-plugin-imp": "^2.0.3"
+  }
+}

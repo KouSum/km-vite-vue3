@@ -52,9 +52,7 @@ export default defineComponent({
       })
     }
 
-    const changePostsSwrTest = (url) => {
-      fetch(url)
-    }
+    const changePostsSwrTest = (url) => fetch(url)
 
     const { data, error } = useSWR("https://jsonplaceholder.typicode.com/posts/1", changePostsSwrTest)
 

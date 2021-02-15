@@ -6,3 +6,5 @@ dist
 dist-ssr
 *.local
 *.bat
+/*-lock.json
+/.lock

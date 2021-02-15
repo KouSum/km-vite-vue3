@@ -872,11 +872,6 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "^0.6.2"
 
-"esbuild-windows-64@file:C:/Users/su113/Downloads/esbuild-windows-64-0.8.45.tgz":
-  version "0.8.45"
-  resolved "file:C:/Users/su113/Downloads/esbuild-windows-64-0.8.45.tgz"
-  integrity sha512-bpoMT2K7vNBEC+F+TU0DlLe3E81o42Tl3Pl2zNXB5KAT6+5sdIJsafUc0HUguKBDNeF4Xovdx5T6XQc848Rt8A==
-
 esbuild@^0.8.34:
   version "0.8.42"
   resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.8.42.tgz?cache=0&sync_timestamp=1612511182353&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild%2Fdownload%2Fesbuild-0.8.42.tgz"

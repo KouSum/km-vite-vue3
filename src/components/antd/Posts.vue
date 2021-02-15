@@ -56,7 +56,7 @@ export default defineComponent({
 
     const { data, error } = useSWR("https://jsonplaceholder.typicode.com/posts/1", changePostsSwrTest)
 
-    const title = computed(() => data.value.title)
+    const title = computed(() => data.value? data.value.title:"")
     console.log(data)
     console.log(error)
 

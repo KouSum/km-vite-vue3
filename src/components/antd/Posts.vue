@@ -16,7 +16,7 @@
 
 //数据请求
 import { defineComponent, reactive, toRefs, toRef, computed,watch,ref  } from "vue";
-import request from "../../request";
+import { Request1 } from "../../request";
 import { useSWR } from 'vueposu'
 
 
@@ -44,10 +44,10 @@ export default defineComponent({
     }
 
     const changePosts = () => {
-      request("https://jsonplaceholder.typicode.com/posts/1").then(d => {
+      Request1("https://jsonplaceholder.typicode.com/posts/1").then((d: { userId: number; id: number; title: string; body: string; }) => {
         console.log(d)
         posts.postsData = d
-      }).catch(e => {
+      }).catch((e: any) => {
         console.log(e)
       })
     }

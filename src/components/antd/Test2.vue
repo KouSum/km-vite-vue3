@@ -11,7 +11,7 @@
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 import { ref, reactive } from 'vue';
 export default {
   setup() {
@@ -44,7 +44,7 @@ export default {
     }
   }
 }
-function addNum(num) {
+function addNum(num: number) {
   num++
 }
 </script>

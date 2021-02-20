@@ -25,17 +25,26 @@ const errorHandler = function(error: ResponseError) {
     // return {some: 'data'};
 };
 
-// 1. 作为统一错误处理
-const request = extend({
+
+export const Request1 = extend({
     prefix: '',
     timeout: 10000,
     headers: {
         'Content-Type': 'multipart/form-data',
     },
+    // 1. 作为统一错误处理
     errorHandler
 });
-export default request
 
+export const Request2 = extend({
+    prefix: 'https://www.***.com/',
+    timeout: 50000,
+    headers: {
+        'Content-Type': 'multipart/form-data',
+    },
+    // 1. 作为统一错误处理
+    errorHandler
+});
 
 
 

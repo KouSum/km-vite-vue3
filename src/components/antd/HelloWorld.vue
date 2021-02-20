@@ -60,7 +60,7 @@
 <script lang="ts">
 import {defineComponent, defineProps, reactive, onMounted, PropType, ref, computed, toRefs} from 'vue'
 import {useStore} from "../../store";
-import request from "../../request";
+import { Request1 } from "../../request";
 
 
 interface State {
@@ -99,6 +99,7 @@ export default defineComponent({
       store.commit('antdModules/cg')
     }
 
+
     //ref
     let count = ref(0)
     //ref
@@ -117,7 +118,7 @@ export default defineComponent({
       title: "title",
       body:"body"
     })
-    request("https://jsonplaceholder.typicode.com/posts/1").then(d=>{
+    Request1("https://jsonplaceholder.typicode.com/posts/1").then(d=>{
       console.log(d)
     }).catch(e=>{
       console.log(e)

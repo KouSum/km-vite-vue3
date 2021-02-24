@@ -32,6 +32,10 @@
             <template #title>数据接口请求</template>
             <el-menu-item index="/posts">umi-request 测试</el-menu-item>
           </el-submenu>
+          <el-submenu index="1-5">
+            <template #title>自定义hooks</template>
+            <el-menu-item index="/hooks">可复用函数demo1</el-menu-item>
+          </el-submenu>
           <!--<el-menu-item-group title="分组4">
             <el-menu-item index="/">单元测试</el-menu-item>
           </el-menu-item-group>-->

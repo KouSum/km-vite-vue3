@@ -21,6 +21,10 @@ const router = createRouter({
             path: '/posts',
             component: () => import ("../components/antd/Posts.vue")
         },
+        {
+            path: '/hooks',
+            component: () => import ("../components/antd/HooksDemo.vue")
+        },
     ]
 })
 

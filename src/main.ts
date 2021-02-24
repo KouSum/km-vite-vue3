@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App2.vue'
-import { Button, Menu, Layout, Input, Descriptions,  } from 'ant-design-vue';
+import { Button, Menu, Layout, Input, Descriptions, Spin  } from 'ant-design-vue';
 import { store, key } from "./store"
 
 import { ElButton, ElSelect, ElHeader, ElMain, ElContainer, ElFooter, ElAside,
@@ -14,7 +14,7 @@ import RequestMethod from 'umi-request'
 
 // ui
 const antd = [
-    Button, Menu, Layout,Input,Descriptions
+    Button, Menu, Layout,Input,Descriptions,Spin
 ]
 const elementPlus = [
     ElButton,

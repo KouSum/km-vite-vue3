@@ -28,6 +28,12 @@ export default defineConfig({
                                 'ant-design-vue/es/popover/style/index.css'
                             ]
                         }
+                        if(name === "row"){
+                            return `ant-design-vue/es/grid/style/index.css`
+                        }
+                        if(name === "row" || name === "col"){
+                            return null
+                        }
                         return `ant-design-vue/es/${name}/style/index.css`
                     }
                 },

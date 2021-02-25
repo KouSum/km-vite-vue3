@@ -31,7 +31,7 @@ export default defineConfig({
                         if(name === "row"){
                             return `ant-design-vue/es/grid/style/index.css`
                         }
-                        if(name === "row" || name === "col"){
+                        if(name === "col"){
                             return null
                         }
                         return `ant-design-vue/es/${name}/style/index.css`
